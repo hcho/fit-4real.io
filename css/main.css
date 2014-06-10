@@ -98,10 +98,27 @@ textarea {
    ========================================================================== */
 
 
+.scene {
+	position: relative;
+}
 
+.scene,
+.layer {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
 
+.layer {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
 
-
+.has-class .scene,
+.has-class .layer {
+	position: static;
+}
 
 
 
